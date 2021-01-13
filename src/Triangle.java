@@ -4,9 +4,9 @@ public class Triangle {
     public static void main(String args[]) {
         int rows, i, j;
 
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter number of rows in Triangle");
-        rows = in.nextInt();
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter number of rows you would like to see in Triangle");
+        rows = input.nextInt();
 
         for (i = 1; i <= rows; i++) {
 
